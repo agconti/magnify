@@ -10,8 +10,8 @@ var get_search_results = function(term){
 	var return_format = '&format=json';
 	var url = channel_url + api_mode + search_term + return_parms + api_Key + return_format
 	//var query_results = window.open(url, '_self');
-
-	return url;
+	var test_list = [1 ,2 ,3, 4, 5, 6, 7, 8, 'im a stringgggg', 9 , 10];
+	return test_list;
 	//parse results
 	//for(item in )
 }
