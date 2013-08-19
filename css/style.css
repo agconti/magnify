@@ -1,4 +1,19 @@
 /* css for magnify app */
-h1, h2          { font-family: 'Georgia', serif; margin: 0; }
-h1              { border-bottom: 2px solid #eee; }
-h2              { font-size: 1.2em; }
+h1, h2          	{ font-family: 'Lucida Grande',  sans-serif; margin: 0; }
+h1              	{ border-bottom: 2px solid #eee; }
+h2              	{ font-size: 1.2em; }
+#search_div			{ display: block; margin-top:125px; text-align: center;}
+#search_query   	{ 
+						text-decoration: none;
+						font: 15px bold "Lucida Grande",  sans-serif;
+						padding: 5px 10px;
+						margin: 0;
+						border-color: #bbbcbd;
+						width: 45%;
+						vertical-align:middle;
+						margin-top: 3px
+					}
+#submit_button  	{ height: 25px; vertical-align:middle; margin-top: 3px;}
+#validate_check		{ text-align: center; font-family: 'Lucida Grande',  sans-serif; margin-top: 3px; color: #bbbcbd;}
+#search_results		{ text-align: center; font-family: 'Lucida Grande',  sans-serif; margin-top: 3px;}
+.result				{}
