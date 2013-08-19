@@ -6,10 +6,12 @@ $(document).ready(function(){
 					this.fadeOut((i*50));});
 				console.log("removed");
 			}
-			var results = get_search_results($("#search_query").val());
+			//var results = get_search_results($("#search_query").val());
+	    	//var results = flick();
+	    	var results = data; 
 	    	var fadeIn_time = 1000;
-	    	for(var i in results){
-	    		var item = $("<p>" + results[i] + "</p>")
+	    	for(var i=0; i < results.entry.length; i++){
+	    		var item = $("<p>" + results.entry[i].author.name.content + "</p>")
 	    		$("#search_results").append(item.hide().fadeIn(fadeIn_time).addClass('result'));
 	    		fadeIn_time += 400;
 	    	}
